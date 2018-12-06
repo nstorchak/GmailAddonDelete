@@ -1,0 +1,17 @@
+{
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.metadata",
+    "https://www.googleapis.com/auth/gmail.modify",
+    "https://www.googleapis.com/auth/gmail.addons.current.message.action"
+  ],
+  "gmail": {
+    "name": "Delete Item Add-on",
+    "logoUrl": "http://icons.iconarchive.com/icons/martin-berube/flat-animal/128/fish-icon.png",
+    "contextualTriggers": [{
+      "unconditional": {
+      },
+      "onTriggerFunction": "AddOn"
+    }]
+  }
+}
